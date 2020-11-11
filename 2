@@ -1,0 +1,7 @@
+#Write a Python program using Scikit-learn to print the keys, number of rows-columns, feature names and the description of the Iris data.
+import pandas as pd
+iris_data = pd.read_csv("https://raw.githubusercontent.com/roholy/Iris/main/Data/iris%20(1).csv")
+print("\nKeys of Iris dataset:")
+print(iris_data.keys()) #keys() method returs a view objject, it contains the keys of the dictionary as a list
+print("\nNumber of rows and columns of Iris dataset:")
+print(iris_data.shape) #shape returns (rows, columns)
